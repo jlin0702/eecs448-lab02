@@ -109,7 +109,7 @@ bool LinkedList<T>::removeBack()
 	if (!isEmpty())
 	{
 		secondintoLast = m_front;
-		for (int i = 0; i < m_size - 1; i++)
+		for (int i = 1; i < m_size - 1; i++)
 		{
 			secondintoLast = secondintoLast->getNext();
 		}
